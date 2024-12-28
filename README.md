@@ -1,3 +1,23 @@
+### **Additional Enhancements**
+1. **Dynamic Client Selection**:
+   - Dynamically selects top-performing clients based on their training performance metrics.
+   - Ensures efficient use of resources by prioritizing high-quality clients for each round.
+
+2. **Local Model Optimization**:
+   - Introduced configurable optimizers (Adam, RMSprop) for client-specific training.
+   - Supports dynamic learning rates for improved convergence during local training.
+
+3. **Performance Tracking**:
+   - Added detailed logs for each client's performance metrics (e.g., loss and accuracy).
+   - Logs are saved both locally and to TensorBoard for easier debugging and visualization.
+
+4. **Training and Testing Enhancements**:
+   - Improved training efficiency with modularized local training functions.
+   - Introduced an automatic evaluation mechanism to assess generalization on excluded clients.
+
+5. **Advanced Visualization**:
+   - Training and evaluation metrics visualized in TensorBoard, providing insights into client performance and global model progress.
+
 
 # Federated Learning in PyTorch
 Implementations of various Federated Learning (FL) algorithms in PyTorch, especially for research purposes.
